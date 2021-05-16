@@ -39,3 +39,9 @@ mainFn();
 window.addEventListener("resize", () => {
   window.location.reload();
 });
+
+window.onload = () => {
+  setTimeout(() => {
+    document.querySelector("body").classList.add("display");
+  }, 4000);
+};
